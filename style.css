@@ -1,7 +1,7 @@
 /*HOME PAGE*/
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 *{
-    
+    outline: 4px solid green !important;
     box-sizing: border-box;
     font-family: Lora, sans-serif;
 }
@@ -228,7 +228,9 @@ button:hover {
 .featuredthumbnail-1, .featuredthumbnail-2 {
     padding-top: 7px;
     padding-bottom: 7px;
+    max-width: 375px;
 }
+
 .featured-wrapper-1, .featured-wrapper-2 {
     position: relative;
     display: block;
@@ -625,6 +627,7 @@ button:hover {
     width: 250px;
     height: 297px;
 }
+
 .about-main-section {
     display: flex;
     justify-content: center;
@@ -819,7 +822,7 @@ button:hover {
 .card h3 {
     width: 90%;
     text-align: left;
-    margin-top: 62%;
+    margin-top: 73%;
     margin-left: 10px;
     color: rgb(0, 0, 0);
     font-weight: 600;
@@ -867,10 +870,6 @@ button:hover {
         font-size: 1.5vh;
     }
 }
-.card-side.front.swi{
-    background-image: url();
-}
-
 .card-side.back.swi{
   background-image: url();
 }
