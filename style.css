@@ -1,7 +1,6 @@
 /*HOME PAGE*/
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 *{
-    outline: 4px solid green !important;
     box-sizing: border-box;
     font-family: Lora, sans-serif;
 }
