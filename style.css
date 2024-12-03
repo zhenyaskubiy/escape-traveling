@@ -419,7 +419,6 @@ button:hover {
     height: 150px;
 }
 #name-field::placeholder, #email-field::placeholder, #password-field::placeholder{
-    position: absolute;
     color: #918a7d;
     margin-left: 15px;
 }
